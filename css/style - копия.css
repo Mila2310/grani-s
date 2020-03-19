@@ -919,14 +919,14 @@ header {
 }
 
 .social-btn-fb { 
-	background-image: url("../img/icon-fb.png");
+	background-image: url("../img/icon-fb.PNG");
 	background-size: 30px 30px;
 	background-position: center center;
 }
 
 
 .social-btn-in {
-	background-image: url("../img/icon-in.png");
+	background-image: url("../img/icon-in.PNG");
 	background-size: 30px 30px;
 	background-position: center center;
 }
