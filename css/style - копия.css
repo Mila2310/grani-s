@@ -228,8 +228,7 @@ header {
 	margin: 0;
 	padding: 0;	
 	padding-left: 80px;
-	min-height: 500px;
-	
+	min-height: 500px;	
 	background: #d8e3e3 url("../img/family2.jpg") no-repeat;
 	background-size: cover;
 	background-position: 0% 15%;
@@ -292,6 +291,7 @@ header {
 	/*---С ЧЕМ РАБОТАЕМ---*/
 
 .our-work {
+	width: 100%;
 	background-color: #ffffff;
 	margin-top: 40px;	
 	min-height: 550px;
@@ -327,8 +327,8 @@ header {
 .our-work-methods {
 	margin: 0;
 	padding: 0;	
-	margin: 15px auto;
-	width: 1200px;
+	margin: 15px 70px;
+	
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -588,6 +588,7 @@ header {
 	/*---CТОИМОСТЬ---*/
 
 .price {
+	width: 100%;
 	min-height: 500px;
 	background-color: #ffffff;
 	margin-top: 40px;
@@ -613,7 +614,7 @@ header {
 
 .price-items {
 	margin: 60px auto;
-	padding: 0 100px;
+	padding: 10px 100px;
 	display: flex;	
 	justify-content: space-between;
 	align-items: center;
@@ -685,6 +686,7 @@ header {
 	/*---ФОРМА---*/
 
 .feedback {
+	width: 100%;
 	margin-top: 30px;	
 	min-height: 400px;
 	background: #d8e3e3 url("../img/bg_callback_section1.jpg") no-repeat center center;
@@ -800,6 +802,7 @@ header {
 	/*---ПОДВАЛ---*/
 
 .page-footer {
+	width: 100%;
 	margin: 0;
 	max-height: 350px;
 	padding-top: 15px;
