@@ -19,19 +19,30 @@ ul {
 
 header {
 	margin-bottom: 0;
+
 }
+
+/*.bg-color {
+	margin: 0;
+	padding: 0;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-content: stretch;
+	align-items: stretch;
+	background-color: #686573;
+}*/
 
 .header-contacts {
 	position: fixed;
-	z-index: 100;
-	width: 100%;
+	z-index: 100;	
 	color: #d6d7dc;
 	background-color: #686573;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-content: center;
 	align-items: center;
-	padding: 5px 0px;
+	padding: 5px 100px;
 	font: 14px/18px "PTSans", sans-serif;	
 }
 
@@ -40,7 +51,7 @@ header {
 }
 
 .header-adress {
-	width: 300px;
+	width: 385px;
 	text-align: center;
 	position: relative;
 	margin: auto;
@@ -60,7 +71,7 @@ header {
 }
 
 .header-email {
-	width: 300px;
+	width: 385px;
 	text-align: center;
 	position: relative;
 	margin: auto;
@@ -79,7 +90,7 @@ header {
 }
 
 .header-phone {
-	width: 300px;
+	width: 385px;
 	text-align: center;
 	position: relative;
 	margin: auto;
@@ -109,7 +120,7 @@ header {
 	padding: 0;
 }
 
-.header-btn {
+/*.header-btn {
 	width: 250px;
 	background-color: #f5af95;
 	margin: -5px 0;
@@ -125,7 +136,7 @@ header {
 }
 
 
-/*.menu-user-nav .header-btn:active .sub-menu1 {
+.menu-user-nav .header-btn:active .sub-menu1 {
   display: block;
   position: absolute;
   top: 10px;
