@@ -42,7 +42,7 @@ header {
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-	padding: 5px 100px;
+	padding: 5px 10px;
 	font: 14px/18px "PTSans", sans-serif;	
 }
 
@@ -51,7 +51,7 @@ header {
 }
 
 .header-adress {
-	width: 385px;
+	width: 300px;
 	text-align: center;
 	position: relative;
 	margin: auto;
@@ -71,7 +71,7 @@ header {
 }
 
 .header-email {
-	width: 385px;
+	width: 300px;
 	text-align: center;
 	position: relative;
 	margin: auto;
@@ -90,7 +90,7 @@ header {
 }
 
 .header-phone {
-	width: 385px;
+	width: 300px;
 	text-align: center;
 	position: relative;
 	margin: auto;
