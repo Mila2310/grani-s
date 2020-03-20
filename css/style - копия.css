@@ -132,7 +132,7 @@ header {
 	background-color: #b5c4c3;
 	background-image: linear-gradient(#b5c4c3 60%, #d8e3e3, #ffffff);
 	display: flex;
-	justify-content: flex-start;
+	justify-content: center;
 	align-items: center;
 	align-content: center;	
 }
