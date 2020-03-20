@@ -22,27 +22,24 @@ header {
 
 }
 
-/*.bg-color {
-	margin: 0;
-	padding: 0;
-	margin: auto;
-	display: flex;
-	justify-content: center;
-	align-content: stretch;
-	align-items: stretch;
-	background-color: #686573;
-}*/
+.page-header {	
+	background-color: #686573;	
+	display: flex;	
+	justify-content: space-between;
+	
+}
 
 .header-contacts {
 	position: fixed;
 	z-index: 100;	
 	color: #d6d7dc;
-	background-color: #686573;
+	background-color: #686573;	
 	display: flex;
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-	padding: 5px 10px;
+	padding: 5px 0;
+	margin: auto;
 	font: 14px/18px "PTSans", sans-serif;	
 }
 
@@ -335,6 +332,7 @@ header {
 	margin: 15px auto;
 	width: 1200px;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
@@ -621,6 +619,8 @@ header {
 	display: flex;	
 	justify-content: space-between;
 	align-items: center;
+	flex-wrap: wrap;
+	align-content: center;
 }
 
 .price-item{	
