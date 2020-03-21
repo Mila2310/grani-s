@@ -1083,6 +1083,7 @@ header {
 	margin: auto;	
 	box-sizing: border-box;
 	padding-left: 50px;
+	text-align: center;
 }
 
 .how-work-1 .list-right {
@@ -1090,6 +1091,8 @@ header {
 	margin: auto;
 	margin-top: 20px;
 	box-sizing: border-box;
+	padding-right: 50px;	
+	text-align: center;
 }
 
 .how-work-1 ul {
