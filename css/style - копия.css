@@ -1066,12 +1066,12 @@ header {
 
 .how-work-1 .list-left {
 	margin: auto;
-	margin-left: 70px;
+	/*margin-left: 70px;*/
 }
 
 .how-work-1 .list-right {
 	margin: auto;
-	margin-right: 50px;
+	/*margin-right: 50px;*/
 }
 
 .how-work-1 li {	
