@@ -20,6 +20,7 @@ ul {
 header {
 	margin-bottom: 0;
 	width: 100%;
+	background-color: #686573;
 
 }
 
@@ -37,6 +38,7 @@ header {
 	padding: 5px 0;
 	margin: auto;
 	font: 14px/18px "PTSans", sans-serif;	
+	box-sizing: border-box;
 }
 
 .header-contacts a {	
@@ -1065,7 +1067,6 @@ header {
 
 .how-work-right {	
 	margin: auto;
-	/*margin-top: 40px;*/
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -1076,35 +1077,28 @@ header {
 .how-work-left img,
 .how-work-right img {
 	margin: auto;
-}
-
-.how-work-left img {
-	margin-right: 50px;
-	box-sizing: border-box;
-}
-.how-work-right img {
-	margin-left: 50px;
-	box-sizing: border-box;
+	width: 500px;
 }
 
 .how-work-1 .list-left {
-	width: 600px;
+	width: 500px;
 	margin: auto;	
 	box-sizing: border-box;
-	text-align: center;		
+	text-align: center;	
+	padding-left: 50px;	
 }
 
 .how-work-1 .list-right {
-	width: 600px;
+	width: 500px;
 	margin: auto;
 	margin-top: 20px;
 	box-sizing: border-box;	
 	text-align: center;
+	padding-left: -50px;
 }
 
 .how-work-1 ul {
-	margin: auto;
-	
+	margin: auto;	
 	list-style-image: url("../img/list_style.png");
 	list-style-position: outside;	
 	padding-top: 0px;
@@ -1115,7 +1109,7 @@ header {
 
 .how-work-1 li {	
 	color: #3f4242;
-	font: 16px/28px "PTSans", sans-serif;
+	font: 14px/28px "PTSans", sans-serif;
 	margin: auto;
 	padding-top: 10px;
 	padding-left: 10px;
