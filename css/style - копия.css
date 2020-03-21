@@ -21,9 +21,7 @@ header {
 	margin-bottom: 0;
 	width: 100%;
 	background-color: #686573;
-
 }
-
 
 .header-contacts {
 	position: fixed;
@@ -279,79 +277,86 @@ header {
 
 	/*---ПРО НАС(подотдел)---*/
 
-.about-us-img-1 {
-	border-radius: 50%;
-	width: 300px;	
-}
-
 .about-us-1 {
-	/*margin: 50px 130px;*/
 	color: #3f4242;
-	width: 100%;
-	margin-top: 40px;	
-	box-sizing: border-box;
+	width: 100%;		
+	/*box-sizing: border-box;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-wrap: wrap;
+	align-content: center;
+	flex-wrap: wrap;*/
 }
 
-.how-work-left {	
-	margin: auto;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	vertical-align: middle;
-	flex-wrap: wrap;
-}
-
-.how-work-right {	
-	margin: auto;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	vertical-align: middle;
-	flex-wrap: wrap;
-}
-
-.how-work-left img,
-.how-work-right img {
-	margin: auto;
-	width: 500px;
-}
-
-.how-work-1 .list-left {
-	width: 500px;
+.ganna,
+.ira {	
+	width: 100%;
 	margin: auto;	
-	box-sizing: border-box;
-	text-align: center;	
-	padding-left: 50px;	
+	display: flex;
+	justify-content: center;
+	/*align-items: flex-start;
+	align-content: flex-start;*/	
+	flex-wrap: wrap;
 }
 
-.how-work-1 .list-right {
-	width: 500px;
+.ganna {
+	margin-bottom: 30px;
+}
+
+.about-us-img-1 {
+	align-self: flex-start;	
+	width: 400px;
+	height: auto;
 	margin: auto;
-	margin-top: 20px;
-	box-sizing: border-box;	
-	text-align: center;
-	padding-left: -50px;
+	margin-top: 30px;		
 }
 
-.how-work-1 ul {
+.about-us-info {
+	width: 750px;
+	margin: auto;
+	margin-top: 20px;	
+	box-sizing: border-box;			
+}
+
+.about-us-info h2 {	
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: Georgia, serif;
+	font-size: 40px;
+	line-height: 150%;
+}
+
+.about-us-info p {
+	margin: 0;
+	padding: 0;
+}
+
+.about-us-info h4 {	
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: left;
+	font-family: Georgia, serif;
+	font-size: 20px;
+	line-height: 150%;
+}
+
+.about-us-1 ul {
 	margin: auto;	
 	list-style-image: url("../img/list_style.png");
 	list-style-position: outside;	
-	padding-top: 0px;
+	padding-left: 20px;
 	vertical-align: middle;
 	text-align: left;
 	color: #3f4242;
 }
 
-.how-work-1 li {	
+.about-us-1 li {	
 	color: #3f4242;
-	font: 14px/28px "PTSans", sans-serif;
+	font: 16px/28px "PTSans", sans-serif;
 	margin: auto;
-	padding-top: 10px;
 	padding-left: 10px;
 }
 
