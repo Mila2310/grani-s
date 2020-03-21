@@ -445,9 +445,9 @@ header {
 
 	/*---ПРЕИМУЩЕСТВА---*/
 
-.features {
+.features {	
 	min-height: 400px;
-	background-color: #ffffff;
+	background-color: #ffffff;	
 	margin-top: 40px;
 	vertical-align: middle;
 }
@@ -470,10 +470,12 @@ header {
 	left: 50%;	
 }
 
-.features .features-description {		
+.features .features-description {
+	max-width: 1080px;	
+	box-sizing: border-box;		
+	margin-left: 100px;
 	margin: auto;
 	margin-top: 40px;
-	margin-left: 100px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;	
