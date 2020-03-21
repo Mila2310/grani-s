@@ -1043,9 +1043,10 @@ header {
 	/*---КАК РАБОТАЕМ(подотдел)--*/
 
 .how-work-1 {
-	margin: 50px 130px;
+	/*margin: 50px 130px;*/
 	color: #3f4242;
-	
+	width: 100%;
+	margin-top: 40px;	
 	box-sizing: border-box;
 	display: flex;
 	justify-content: center;
@@ -1054,7 +1055,7 @@ header {
 }
 
 .how-work-1 ul {
-	width: 600px;
+	width: 500px;
 	list-style-image: url("../img/list_style.png");
 	list-style-position: outside;	
 	padding-top: 0px;
@@ -1064,10 +1065,12 @@ header {
 }
 
 .how-work-1 .list-left {
+	margin: auto;
 	margin-left: 70px;
 }
 
 .how-work-1 .list-right {
+	margin: auto;
 	margin-right: 50px;
 }
 
@@ -1079,14 +1082,13 @@ header {
 	padding-left: 10px;
 }
 
-
-
 .how-work-left {	
 	margin: auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	vertical-align: middle;
+	flex-wrap: wrap;
 }
 
 .how-work-right {	
@@ -1096,6 +1098,12 @@ header {
 	justify-content: center;
 	align-items: center;
 	vertical-align: middle;
+	flex-wrap: wrap;
+}
+
+.how-work-left img,
+.how-work-right img {
+	margin: auto;
 }
 
 	/*---КОНТАКТЫ--*/
