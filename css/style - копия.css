@@ -448,6 +448,7 @@ header {
 .features {	
 	min-height: 400px;
 	background-color: #ffffff;	
+	margin: 0 auto;
 	margin-top: 40px;
 	vertical-align: middle;
 }
@@ -471,11 +472,11 @@ header {
 }
 
 .features .features-description {
-	max-width: 1080px;	
+	max-width: 1080px;
 	box-sizing: border-box;		
-	margin-left: 100px;
 	margin: auto;
 	margin-top: 40px;
+	/*margin-left: 100px;*/
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;	
@@ -1039,11 +1040,13 @@ header {
 	text-decoration: underline;
 }
 
-	/*---КАК РАБОТАЕМ--*/
+	/*---КАК РАБОТАЕМ(подотдел)--*/
 
 .how-work-1 {
 	margin: 50px 130px;
 	color: #3f4242;
+	
+	box-sizing: border-box;
 	display: flex;
 	justify-content: center;
 	align-items: center;
