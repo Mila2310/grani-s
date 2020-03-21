@@ -1054,34 +1054,6 @@ header {
 	flex-wrap: wrap;
 }
 
-.how-work-1 ul {
-	width: 500px;
-	list-style-image: url("../img/list_style.png");
-	list-style-position: outside;	
-	padding-top: 0px;
-	vertical-align: middle;
-	text-align: left;
-	color: #3f4242;
-}
-
-.how-work-1 .list-left {
-	margin: auto;
-	/*margin-left: 70px;*/
-}
-
-.how-work-1 .list-right {
-	margin: auto;
-	/*margin-right: 50px;*/
-}
-
-.how-work-1 li {	
-	color: #3f4242;
-	font: 16px/28px "PTSans", sans-serif;
-	margin: auto;
-	padding-top: 10px;
-	padding-left: 10px;
-}
-
 .how-work-left {	
 	margin: auto;
 	display: flex;
@@ -1104,6 +1076,37 @@ header {
 .how-work-left img,
 .how-work-right img {
 	margin: auto;
+}
+
+.how-work-1 .list-left {
+	margin: auto;
+	padding-left: 70px;
+	/*margin-left: 70px;*/
+}
+
+.how-work-1 .list-right {
+	margin: auto;
+	padding-right: 50px;
+	/*margin-right: 50px;*/
+}
+
+.how-work-1 ul {
+	margin: auto;
+	width: 500px;
+	list-style-image: url("../img/list_style.png");
+	list-style-position: outside;	
+	padding-top: 0px;
+	vertical-align: middle;
+	text-align: left;
+	color: #3f4242;
+}
+
+.how-work-1 li {	
+	color: #3f4242;
+	font: 16px/28px "PTSans", sans-serif;
+	margin: auto;
+	padding-top: 10px;
+	padding-left: 10px;
 }
 
 	/*---КОНТАКТЫ--*/
