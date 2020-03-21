@@ -315,7 +315,9 @@ header {
 	width: 750px;
 	margin: auto;
 	margin-top: 20px;	
-	box-sizing: border-box;			
+	box-sizing: border-box;	
+	text-align: justify;
+
 }
 
 .about-us-info h2 {	
@@ -358,6 +360,7 @@ header {
 	font: 16px/28px "PTSans", sans-serif;
 	margin: auto;
 	padding-left: 10px;
+	text-align: justify;
 }
 
 	/*---С ЧЕМ РАБОТАЕМ---*/
