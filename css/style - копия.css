@@ -279,9 +279,80 @@ header {
 
 	/*---ПРО НАС(подотдел)---*/
 
-.about-img-1 {
+.about-us-img-1 {
 	border-radius: 50%;
 	width: 300px;	
+}
+
+.about-us-1 {
+	/*margin: 50px 130px;*/
+	color: #3f4242;
+	width: 100%;
+	margin-top: 40px;	
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.how-work-left {	
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	vertical-align: middle;
+	flex-wrap: wrap;
+}
+
+.how-work-right {	
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	vertical-align: middle;
+	flex-wrap: wrap;
+}
+
+.how-work-left img,
+.how-work-right img {
+	margin: auto;
+	width: 500px;
+}
+
+.how-work-1 .list-left {
+	width: 500px;
+	margin: auto;	
+	box-sizing: border-box;
+	text-align: center;	
+	padding-left: 50px;	
+}
+
+.how-work-1 .list-right {
+	width: 500px;
+	margin: auto;
+	margin-top: 20px;
+	box-sizing: border-box;	
+	text-align: center;
+	padding-left: -50px;
+}
+
+.how-work-1 ul {
+	margin: auto;	
+	list-style-image: url("../img/list_style.png");
+	list-style-position: outside;	
+	padding-top: 0px;
+	vertical-align: middle;
+	text-align: left;
+	color: #3f4242;
+}
+
+.how-work-1 li {	
+	color: #3f4242;
+	font: 14px/28px "PTSans", sans-serif;
+	margin: auto;
+	padding-top: 10px;
+	padding-left: 10px;
 }
 
 	/*---С ЧЕМ РАБОТАЕМ---*/
@@ -323,8 +394,7 @@ header {
 .our-work-methods {
 	margin: 0;
 	padding: 0;	
-	margin: 15px 70px;
-	
+	margin: 15px 70px;	
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -361,6 +431,7 @@ header {
 }
 
 	/*---С ЧЕМ РАБОТАЕМ(подотдел)---*/
+
 .our-work-1 {
 	width: 100%;
 	margin: 0;
@@ -372,46 +443,47 @@ header {
 	align-items: center;	
 }
 
-.left-work,
-.right-work {
-	margin: 0;
-	padding: 0;
-	margin: auto;
-	margin-top: 0;
-	min-height: 500px;
-	display: flex;	
-	justify-content: center;
-	align-items: center;
-	/*align-content: center;*/		
-}
-
 .our-work-bgc {
 	width: 100%;
 	margin: auto;
 	background-color: rgba(216, 227, 227, 0.5);
 }
 
-.work-item-img-l {	
+.left-work,
+.right-work {
+	width: 100%;
+	margin: 0;
+	padding: 0;
 	margin: auto;
+	margin-top: 0;
+	min-height: 500px;
+	display: flex;	
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	/*align-content: center;*/		
 }
 
-.work-item-list-l {	
-	box-sizing: border-box;	
+.work-item-img-l {	
 	margin: auto;
-	padding-left: 160px;
-	width: 700px;
+
+}
+
+.work-item-list-l {		
+	margin: auto;
+	/*padding-left: 160px;*/
+	width: 480px;
 }
 
 .work-item-img-r {
 	margin: auto;
-	margin-right: 130px;
+
 }
 
 .work-item-list-r {
-	box-sizing: border-box;	
 	margin: auto;
-	padding-left: 120px;
-	width: 700px;
+	/*padding-left: 120px;*/
+	width: 480px;
 }
 
 .work-item-list-l h4,
@@ -433,7 +505,7 @@ header {
 	vertical-align: middle;
 	text-align: left;
 	color: #3f4242;
-	font: 20px/36px "PTSans", sans-serif;
+	font: 18px/36px "PTSans", sans-serif;
 }
 
 .work-item-list-l li,
