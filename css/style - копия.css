@@ -1078,25 +1078,33 @@ header {
 	margin: auto;
 }
 
+.how-work-left img {
+	margin-right: 50px;
+	box-sizing: border-box;
+}
+.how-work-right img {
+	margin-left: 50px;
+	box-sizing: border-box;
+}
+
 .how-work-1 .list-left {
 	width: 600px;
 	margin: auto;	
 	box-sizing: border-box;
-	padding-left: 50px;
-	text-align: center;
+	text-align: center;		
 }
 
 .how-work-1 .list-right {
 	width: 600px;
 	margin: auto;
 	margin-top: 20px;
-	box-sizing: border-box;
-	padding-right: 50px;	
+	box-sizing: border-box;	
 	text-align: center;
 }
 
 .how-work-1 ul {
-	margin: auto;	
+	margin: auto;
+	
 	list-style-image: url("../img/list_style.png");
 	list-style-position: outside;	
 	padding-top: 0px;
