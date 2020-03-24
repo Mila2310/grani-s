@@ -234,29 +234,6 @@ header {
 	margin-top: -23px;
 	display: block;
 }
-@media (min-width: 576px) {
-  .about-us {
-    max-width: 540px;
-  }
-}
-
-@media (min-width: 768px) {
-  .about-us {
-    max-width: 720px;
-  }
-}
-
-@media (min-width: 992px) {
-  .about-us {
-    max-width: 960px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .about-us {
-    max-width: 100%;
-  }
-}
 
 .about-us .title-1 {
 	padding-top: 135px;
@@ -1481,6 +1458,30 @@ header {
 	background-size: 70px;
 }
 
+
+@media (min-width: 576px) {
+  header, .about-us, .our-work, .features, .price, .feedback, footer {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  header, .about-us, .our-work, .features, .price, .feedback, footer {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  header, .about-us, .our-work, .features, .price, .feedback, footer {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  header, .about-us, .our-work, .features, .price, .feedback, footer{
+    max-width: 1140px;
+  }
+}
 
 
 
