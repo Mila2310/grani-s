@@ -234,6 +234,29 @@ header {
 	margin-top: -23px;
 	display: block;
 }
+@media (min-width: 576px) {
+  .about-us {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-us {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .about-us {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about-us {
+    max-width: 100%;
+  }
+}
 
 .about-us .title-1 {
 	padding-top: 135px;
