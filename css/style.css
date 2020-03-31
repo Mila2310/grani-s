@@ -1124,6 +1124,7 @@ header {
 .how-work-top,
 .contacts-top,
 .blog-top,
+.blog-top-1,
 .price-top {
 	width: 100%;
 	margin: 0;
@@ -1159,6 +1160,7 @@ header {
 	width: 250px;
 	justify-content: space-between;
 	align-items: center;	
+	flex-wrap: wrap;
 	vertical-align: middle;
 }
 
@@ -1183,7 +1185,25 @@ header {
 	color: rgba(0, 0, 0, 0.5);
 	padding: 40px 0;
 	vertical-align: middle;
+}
+.blog-top-1 .main-page-p {
+	color: #000000;
+}
 
+.blog-top-1 .main-page-p,
+.blog-top-1 .main-page-a {
+	padding-bottom: 0;
+}
+
+.main-page-p-1 {
+	margin: 0;
+	padding: 0;	
+	text-align: left;
+	text-decoration: none;
+	width: 250px;
+	color: rgba(0, 0, 0, 0.5);
+	padding: 0px 0;
+	vertical-align: middle;
 }
 
 .main-page-a:hover {
@@ -1264,6 +1284,92 @@ header {
 	margin: auto;
 	padding-top: 10px;
 	padding-left: 10px;
+}
+
+/*---БЛОГ--*/
+
+.blog-1 {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;	
+	align-items: center;	
+}
+
+.blog-1 .btn {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	background-color: #663232;
+	padding: 10px 25px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 18px;
+	text-decoration: none;
+	color: #ffffff;
+	width: 180px;
+	border-radius: 35px;
+	margin-bottom: 20px;
+	border: none;
+}
+
+.article,
+.article-1 {	
+	margin: 0;
+	padding: 0;
+	margin: auto;
+	margin-top: 0;
+	min-height: 150px;
+	margin-left: 120px;
+	margin-right: 120px;
+	/*display: flex;	
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	align-content: center;*/		
+}
+
+.article-1 {
+	box-sizing: border-box;
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+
+.article h4 {	
+	margin: 0;
+	padding: 0;
+	margin-top: 40px;
+	margin-bottom: 10px;	
+	text-align: left;
+	font-family: Georgia, serif;
+	font-size: 28px;
+	line-height: 150%;	
+}
+
+.article h4 a{
+	color: #000;
+	text-decoration: none;
+	margin: 0;
+	padding:0;
+
+}
+
+.article h4 a:hover {
+	color: #663232;
+	opacity: 0.9;
+}
+
+.article p {
+	color: #3f4242;
+	font: 14px/28px "PTSans", sans-serif;
+}
+
+.article-1 p {
+	color: #3f4242;
+	font: 18px/28px "PTSans", sans-serif;
 }
 
 	/*---КОНТАКТЫ--*/
