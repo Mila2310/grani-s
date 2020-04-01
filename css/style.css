@@ -1152,7 +1152,8 @@ header {
 	font-family: Georgia, serif;
 	font-size: 30px;
 	line-height: 150%;
-	width: auto;	
+	width: auto;
+	max-width: 700px;	
 }
 
 .main-page {
@@ -1325,6 +1326,7 @@ header {
 	min-height: 150px;
 	margin-left: 120px;
 	margin-right: 120px;
+	max-width: 1200px;
 	/*display: flex;	
 	justify-content: space-around;
 	align-items: center;
@@ -1349,6 +1351,29 @@ header {
 	line-height: 150%;	
 }
 
+.article-1 h4 {	
+	margin: 0;
+	padding: 0;
+	margin-top: 40px;
+	margin-bottom: 10px;	
+	text-align: left;
+	font-family: Georgia, serif;
+	font-size: 20px;
+	line-height: 120%;	
+}
+
+.article-1 h5 {	
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+	text-align: left;
+	color: #3f4242;
+	font-family: "PTSans", sans-serif;
+	font-size: 18px;
+	line-height: 120%;	
+}
+
 .article h4 a{
 	color: #000;
 	text-decoration: none;
@@ -1367,9 +1392,24 @@ header {
 	font: 14px/28px "PTSans", sans-serif;
 }
 
-.article-1 p {
+.article-1 p, 
+.article-1 li {
 	color: #3f4242;
 	font: 18px/28px "PTSans", sans-serif;
+}
+
+.article-1 li {
+	padding: 0;
+	margin: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.article span {
+	color: #3f4242;
+	font-weight: bold;
+	font: 18px/28px "PTSans", sans-serif;
+
 }
 
 	/*---КОНТАКТЫ--*/
