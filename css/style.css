@@ -278,6 +278,7 @@ header {
 	display: inline-block;
 	margin: 0;
 	padding: 0;
+	margin-bottom: 20px;
 	background-color: #663232;
 	padding: 10px 25px;
 	text-align: center;
