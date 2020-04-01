@@ -514,6 +514,11 @@ header {
 	margin: auto;
 	background-color: rgba(216, 227, 227, 0.5);
 }
+.our-work-bgc-1 {
+	width: 100%;
+	margin: auto;
+	background-color: #ffffff;
+}
 
 .left-work,
 .right-work {
